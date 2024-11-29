@@ -1,11 +1,12 @@
 import clsx from "clsx";
 import { useState } from "react";
+
 import { IoMdMenu } from "react-icons/io";
 import { IoClose } from "react-icons/io5";
 import { Link } from "react-router-dom";
 
 export default function Navigation() {
-  const [openNav, setOpenNav] = useState(true);
+  const [openNav, setOpenNav] = useState(false);
   return (
     <nav className="mx-2 pt-4 pb-2">
       <div className="flex justify-between items-center">
