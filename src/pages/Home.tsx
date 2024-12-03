@@ -3,7 +3,7 @@ import Navigation from "../components/Navigation";
 
 export default function Home() {
   return (
-    <div className="sm:pt-10 bg-[url(/assets/home/background-home-mobile.jpg)] md:bg-[url(/assets/home/background-home-desktop.jpg)] md:pb-[80px] md:h-screen bg-no-repeat bg-cover">
+    <div className="sm:pt-10 bg-[url(/assets/home/background-home-mobile.jpg)] md:bg-[url(/assets/home/background-home-desktop.jpg)] md:pb-[80px] md:h-screen h-full bg-no-repeat bg-cover">
       <Navigation />
       <div className="md:grid md:grid-cols-[2fr_1fr] md:items-center md:mx-10 md:gap-x-[130px] mdBig:mx-auto  md:mt-[200px] md:max-w-[900px]">
         <div className="text-gray text-center md:text-left ">
