@@ -2,6 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body {
-  color: rgb(207, 207, 207);
-} */
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tech-nav .active {
+  @apply bg-white rounded-full;
+}
+
+.tech-nav .active li {
+  @apply text-black;
+}
+
+.main-nav .active {
+  @apply border-r-2 sm:border-r-0 sm:border-b-2 pr-[180px] sm:pr-0 border-white sm:pb-4;
+}
+
+.page-nav .active {
+  @apply border-b-2 border-white pb-2;
+}
+
+.crew-nav .active {
+  @apply bg-white;
+}
