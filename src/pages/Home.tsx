@@ -7,7 +7,7 @@ export default function Home() {
       <Navigation />
       <div className="md:grid md:grid-cols-[2fr_1fr] md:items-center md:mx-10 md:gap-x-[130px] mdBig:mx-auto  md:mt-[200px] md:max-w-[900px]">
         <div className="text-gray text-center md:text-left ">
-          <p className="text-lg"> SO, YOU WANT TO TRAVEL TO</p>
+          <p className="text-lg mt-10"> SO, YOU WANT TO TRAVEL TO</p>
           <h1 className="text-[80px] text-white tracking-wider">SPACE</h1>
           <p className="px-4 md:px-0">
             Let’s face it; if you want to go to space, you might as well
