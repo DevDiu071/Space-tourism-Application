@@ -14,8 +14,6 @@ import Victor from "./pages/crew/Victor";
 import Vehicle from "./pages/technology/Vehicle";
 import Spaceport from "./pages/technology/Spaceport";
 import Capsule from "./pages/technology/Capsule";
-import { useState } from "react";
-import Navigation from "./components/Navigation";
 
 export default function App() {
   return (
